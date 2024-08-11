@@ -118,6 +118,7 @@ services.trezord.enable = true;
   # $ nix search wget
   environment.systemPackages = with pkgs; [
   
+  vim
   neovim
   neofetch
   vesktop
@@ -145,6 +146,17 @@ services.trezord.enable = true;
   #hyprland stuff
   xdg-desktop-portal-hyprland
   kitty
+  hyprpaper
+  ranger
+  dolphin
+  rofi-wayland
+  thunderbird
+  swaynotificationcenter
+  krusader
+  waybar
+  nerdfonts
+
+
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
